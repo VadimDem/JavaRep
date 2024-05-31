@@ -7,9 +7,9 @@ public class Student {
     private int age;
 
     public Student(String firstName, String lastName, int age){
-        this.firstName="Имя";
-        this.lastName="Фамилия";
-        this.age=0;
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.age=age;
     }
 
     public String getFirstName() {

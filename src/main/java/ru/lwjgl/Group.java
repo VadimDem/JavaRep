@@ -5,8 +5,8 @@ public class Group {
     private Student[] students = new Student[20];
     private int studentCount = 0;
 
-    public Group(int number) {
-        this.numberGroup = number;
+    public Group(int numberGroup) {
+        this.numberGroup = numberGroup;
     }
 
     public void addStudent(Student student) {
